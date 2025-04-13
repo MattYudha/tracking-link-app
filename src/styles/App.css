@@ -1,0 +1,95 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.unique-countries {
+  background-color: #28a745; /* Hijau untuk negara unik */
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.last-visit {
+  background-color: #17a2b8; /* Biru muda untuk kunjungan terakhir */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.visit-history {
+  list-style-type: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.visit-history li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.visit-history li:last-child {
+  border-bottom: none;
+}
