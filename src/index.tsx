@@ -1,15 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom"; // Ubah dari 'react-dom/client' ke 'react-dom'
+import ReactDOM from "react-dom/client"; // ✅ Gunakan 'react-dom/client'
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
 );
 
-// Jika kamu ingin mengukur performa aplikasi, kamu bisa menggunakan reportWebVitals
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
 reportWebVitals();
